@@ -1,0 +1,23 @@
+/* styles.css */
+.container {
+    background-color: orange;
+    width: 400px; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid #010101; /* Add a border around the container */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+label {
+    margin-bottom: 10px; /* Add some spacing between labels and inputs */
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 15px; /* Add some spacing between form elements */
+}
